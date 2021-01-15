@@ -1,1 +1,28 @@
+Link tutorial.
+
 https://youtu.be/o9eij8FEvuA?t=1423
+
+
+Informacion de desarrollo.
+
+Frameworks: 
+            - Boostwatch
+            - Font Awsome
+            - Express JS
+            - Node JS
+
+
+Motor de Plantillas Html.
+
+    HandleBars.
+
+    Para el manejo de las rutas del servidor y los archivos .hbs, se debe establecer en la ruta:
+    
+    router.get('/...', (req,res) => {
+        res.render(     ARCHIVO DESDE LA CARPETA VIEWS.         )
+    });
+
+    Este sistema de plantillas utiliza el contenido de la carpeta layouts como la base de los html, por eso
+    cuando se responda con una ruta hacia un archivo html, se debe especifiacar el archivo en la carpeta views.
+
+    
