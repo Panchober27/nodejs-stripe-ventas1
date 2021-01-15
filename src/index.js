@@ -22,7 +22,7 @@ app.set('view engine', '.hbs');
 
 
 // MIDDLEWARE.
-// Cuando el usuario acepte el pago (Stripe enviara datos al servidor.) 
+// Cuando el usuario acepte el pago (Stripe enviara datos al servidor.)
 app.use(express.urlencoded({extended: false}));
 // Configuracion para que el servidor soporte formatos JSON.
 app.use(express.json());
